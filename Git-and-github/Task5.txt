@@ -1,0 +1,58 @@
+Process of contributing in an open source project-
+Step 1: Sign into GitHub
+
+Step 2: Fork the project repository
+In the upper left corner, you will see that you are now looking at a repository in your account.
+
+Step 3: Clone your fork
+Using Git on your local machine, clone your fork using the URL you just copied: git clone URL_OF_FORK.
+
+Step 4: Navigate to your local repository
+Since the clone was downloaded into a subdirectory of your working directory, you can navigate to it using: cd NAME_OF_REPOSITORY.
+
+Step 5: Check that your fork is the "origin" remote
+Using: git remote add origin URL_OF_FORK.
+
+Step 6: Add the project repository as the "upstream" remote
+using: git remote add upstream URL_OF_PROJECT.
+
+Step 7: Pull the latest changes from upstream into your local repository
+Use git pull upstream master to "pull" any changes from the "master" branch of the "upstream" into your local repository. 
+
+Step 8: Create a new branch
+Use git checkout -b BRANCH_NAME to create a new branch and then immediately switch to it.
+
+Step 9: Make changes in your local repository
+Step 10: Commit your changes
+After you make a set of changes, use git add -A to stage your changes and git commit -m "DESCRIPTION OF CHANGES" to commit them.
+
+Step 11: Push your changes to your fork
+When you are done making all of your changes, upload these changes to your fork using git push origin BRANCH_NAME. 
+
+Step 12: Begin the pull request
+Return to your fork on GitHub, and refresh the page.
+
+Step 13: Create the pull request
+When opening a "pull request", you are making a "request" that the project repository "pull" changes from your fork. 
+
+Step 14: Review the pull request
+You have now created a pull request, which is stored in the project's repository 
+
+Step 15: Add more commits to your pull request
+You can continue to add more commits to your pull request even after opening it!
+
+Step 16: Discuss the pull request
+If there are questions or discussion about your pull request from the project maintainers, you can add to the conversation using the comment box at the bottom of the pull request.
+
+Step 17: Delete your branch from your fork
+If the project maintainers accept your pull request (congratulations!), they will merge your proposed changes into the project's master branch and close your pull request:
+
+Step 18: Delete your branch from your local repository
+You should also delete the branch you created from your local repository, so that you don't accidentally start working in it the next time you want to make a contribution to this project.
+
+First, switch to the master branch: git checkout master.
+
+Then, delete the branch you created: git branch -D BRANCH_NAME. For example, I used git branch -D doc-fixes.
+
+
+Step 19: Synchronize your fork with the project repository

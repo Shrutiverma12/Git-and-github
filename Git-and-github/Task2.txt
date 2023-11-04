@@ -1,0 +1,21 @@
+Staging Area-
+The Staging Area is when git starts tracking and saving changes that occur in files. These saved changes reflect in the .git directory. That is about it when it comes to the Staging Area. You tell git that I want to track these specific files, then git says okay and moves them from you Working Tree to the Staging Area and says “Cool, I know about this file in its entirety.” However, if you make any more additional changes after adding a file to the Staging Area, git will not know about those specific changes until you tell it to see them. You explicitly have to tell git to notice the edits in your files.
+
+
+Working directory-
+A working directory references the "where", a working tree references the "what" (what it contains, its files tracked or not tracked)
+
+Repository-
+A Git repository is a central storage location for managing and tracking changes in files and directories
+
+
+Actions:
+
+1. Clone the repository
+2. git fetch and git rebase
+3. Create a new branch
+4. Add commits
+5. git fetch and git rebase (on the master branch)
+6. Push the commits
+7. Create a Pull Request
+8. Discuss, review and merge pull request

@@ -1,0 +1,29 @@
+What Is GitHub?
+GitHub is a for-profit company that offers a cloud-based Git repository hosting service. Essentially, it makes it a lot easier for individuals and teams to use Git for version control and collaboration.
+
+In GitHub, we can invite other GitHub users to become collaborators to our private repositories(which expires after 7 days if not accepted, restoring any unclaimed licenses). Being a collaborator, of a personal repository you can pull (read) the contents of the repository and push (write) changes to the repository. You can add unlimited collaborators on public and private repositories(with some per day limit restrictions). But, in a private repository, the owner of the repo can only grant write-access to the collaborators, and they can’t have the read-only access.
+
+
+Actions that can be Performed By Collaborators
+Collaborators can perform a number of actions into someone else’s personal repositories, they have gained access to. Some of them are, 
+
+Create, merge, and close pull requests in the repository
+Publish, view, install the packages
+Fork the repositories
+Make the changes on the repositories as suggested by the Pull requests.
+Mark issues or pull requests as duplicate
+Create, edit, and delete any comments on commits, pull requests, and issues in the repository
+Removing themselves as collaborators on the repositories.
+Manage releases in the repositories
+
+Version control with Git -
+We've covered some of the basics, so now let's dive into more detail about how Git works and why it's so popular. A full-blown Git tutorial is beyond the scope of this article, but we can look into the most important Git concepts and terminology to get you started.
+
+
+Alternative of GitHub-
+
+1.Gitlab-
+2-BitBucket-
+3-SourceForge-
+4-Launchpad-
+5-Gitea-
